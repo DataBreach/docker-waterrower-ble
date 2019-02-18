@@ -1,0 +1,7 @@
+apps:
+  - script   : './waterrower-ble/main.js'
+    args     : 'usb'
+    name     : 'waterrower-usb'
+  - script   : './waterrower-ble/main.js'
+    args     : 'ble'
+    name     : 'waterrower-ble'
